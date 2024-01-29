@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("images/blog1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+    height: 100%;
+    width: 100%;
+    object-position: center;
+}
+.navbar-list{
+    text-align: center;
+}
+.navbar-list li {
+    display: inline-block;
+    padding: 30px;
+   
+    
+}
+.navbar-list li a {
+ margin: 30px;
+ color: white;
+ text-decoration: none;
+}
+
+.navbar-list li a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+hr{
+border-color: blue;
+}
+.text{
+    height: 573.5px;
+    width: 378.5px;
+    background-color:#161616;
+    position: relative;
+    bottom: 577.5px;
+    left: 964px;
+    color: white;
+    text-align: center;
+}
+.text h1{
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #EB2747;
+}
+.text p{
+    font-size: 50px;
+    color: #E4C5A6;
+}
+#para{
+    font-size: 20px;
+    font-style: italic;
+}

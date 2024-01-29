@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("images/pizza.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+    height: 100%;
+    width: 100%;
+}
+.navbar-list{
+    text-align: center;
+}
+.navbar-list li {
+    display: inline-block;
+    padding: 30px;
+   
+    
+}
+.navbar-list li a {
+ margin: 30px;
+ color: white;
+ text-decoration: none;
+}
+
+.navbar-list li a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+hr{
+border-color: blue;
+}
+
+.card1{
+    width: 500px;
+    height: 70px;
+    background-color: white;
+    margin: 70px 40px 40px 60px;
+    border-radius: 10px;
+     padding: 20px 20px;   
+    
+}
+
+.card2{
+    width:500px;
+    height: 70px;
+    background-color: white;
+    position: relative;
+    left: 700px;
+    bottom: 510px;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+.card3{
+    width:500px;
+    height: 70px;
+    background-color: white;
+    position: relative;
+    left: 700px;
+    bottom: 440px;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+.card4{
+    width:500px;
+    height: 70px;
+    background-color: white;
+    position: relative;
+    left: 700px;
+    bottom: 370px;
+    border-radius: 10px;
+    padding: 20px 20px;
+}

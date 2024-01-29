@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event</title>
+    <style>
+     /* #fol{
+        height: 200px;
+        width: 200px;
+        background-color: red;
+      } */  
+
+      #lol{
+         height: 200px;
+        width: 200px;
+        background-color: red;
+      }
+    </style>
+</head>
+<body onresize="size()">
+   <!---<form onsubmit="uzair()">
+       <label>Name</label> <input type="text" placeholder="enter your name" id="fname" oninvalid="alert('please enter your first name')" required><br>
+       <br>
+       <br>
+       <label>password</label> <input type="email" placeholder="enter your password" id="lname" oninvalid="alert('please enter correct email id')"><br>
+       <br>
+       <br>
+        <button>sumbit</button>
+    </form>-->
+
+    <div id="fol">
+       
+    </div>
+     <br><br>
+    <div id="lol">
+
+    </div>
+    <!--<button  onclick="openwindow()">OPEN WINDOW </button>
+    <button  onclick="closewindow()">CLOSE WINDOW</button>
+    <button  onclick="movein()">CLOSE WINDOW</button>
+
+    <button  onclick="back()">back</button>
+    <button  onclick="forward()">forward</button>-->
+
+    <script>
+     
+     // online and offline events //
+
+     let x = document.querySelector("#lol");
+      window.addEventListener('online',function(){
+        x.innerHTML="you are online";
+        x.style.backgroundColor = "blue";
+      });
+
+      window.addEventListener('offline',function(){
+        x.innerHTML="you are offline";
+        x.style.backgroundColor = "green";
+      })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* let id = setInterval(uzair,500);
+  
+      let a = 0;
+     function uzair(){
+      a = a+10;
+        if(a==200)
+        {
+          clearInterval(id);
+        }else{
+         let test = document.getElementById("fol");
+           test.style.marginLeft = a + "px";
+        } */  
+     
+     /* let x = setInterval(anim,500)
+       let f =0;
+       function anim(){
+         f = f+10;
+         if(f==200){
+           clearInterval(x);
+         }else{
+            let hh=  document.getElementById("lol");
+            hh.style.marginLeft = f +"px";
+         }
+       }
+     }   */ 
+
+
+       // BOM //
+
+       // outer hight outer widtth and inner hight and inner width //
+
+
+      /*  function size(){
+
+        console.clear();
+        let outer = window.outerWidth;
+       console.log('outer width '+ outer);
+     
+       let inner = window.innerWidth;
+       console.log('inner width '+ inner);
+
+       let outer1 = window.outerHeight;
+       console.log('outer hight '+ outer1);
+
+       let inner1 = window.innerHeight;
+       console.log('inner hight '+ inner1);
+       }  * / 
+
+
+       // open and close method of window // 
+  
+      /* let fogi;
+       function openwindow(){
+       fogi = window.open("http://www.yahoobaba.net","",hight="400px",width="400px", left="100px",right = "500px");
+       }
+     
+        function closewindow(){
+          fogi.close(); 
+        } */ 
+
+           /*  let lol2;
+        function openwindow(){
+         lol2 =  window.open("http://www.yahoobaba.net","",left="600px",top="50px",hight="100px",width="100px");
+        }
+         
+        function closewindow(){
+         lol2.window.close();
+        } */ 
+
+       // console.log(location);//
+
+       // console.log(location.href); //
+    
+       // console.log(history); //
+
+      /* function back(){
+        history.back();
+       }
+
+       function forward(){
+        history.forward();
+       } */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* document.getElementById("fname").onfocus = function (){
+        document.getElementById("fname").style.backgroundColor = "green";
+     }
+
+     document.getElementById("fname").onblur = function (){
+        document.getElementById("fname").style.backgroundColor = "";
+     }
+
+     document.getElementById("lname").onfocus = function (){
+        document.getElementById("lname").style.backgroundColor = "blue";
+     }
+
+
+     document.getElementById("lname").onblur = function (){
+        document.getElementById("lname").style.backgroundColor = "";
+     } 
+
+     /* document.getElementById("fname").oninput = function(){
+        document.getElementById("fname").innerHTML = "you select ";
+     } */ 
+     
+    /* function uzair(){
+
+        var x = document.getElementById("fname").value;
+      alert("you submit the form " + x);
+     } */ 
+
+
+
+
+
+
+    </script>
+</body>
+</html>

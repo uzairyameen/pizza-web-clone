@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("images/pizza.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+    height: 100%;
+    width: 100%;
+}
+.navbar-list{
+    text-align: center;
+}
+.navbar-list li {
+    display: inline-block;
+    padding: 30px;
+   
+    
+}
+.navbar-list li a {
+ margin: 30px;
+ color: white;
+ text-decoration: none;
+}
+
+.navbar-list li a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+hr{
+border-color: blue;
+}
+
+.card{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    top: 70px;
+    left: 150px;
+    border-radius: 20px;
+   text-align: center;
+}
+.card h3{
+    font-size: 30px;
+}
+
+.Updated button{
+    margin: 10px;
+    width: 150px;
+    padding: 10px 12px;
+    background-color: red;
+    font-size: larger;
+    border-radius: 30px;
+    color: white;
+}
+.Updated button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.card1{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    bottom: 330px;
+    left: 550px;
+    border-radius: 20px;
+    text-align: center;
+}
+.card1 h3{
+    font-size: 30px;
+}
+.card1 a {
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+}
+
+
+.card2{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    bottom: 730px;
+    left: 950px;
+    border-radius: 20px;
+    text-align: center;
+}
+.card2 h3{
+    font-size: 30px;
+}
+.card2 a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
